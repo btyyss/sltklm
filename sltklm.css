@@ -15,6 +15,7 @@
 	position: relative;
 }
 .site-heading{
+<<<<<<< HEAD
 	margin-top: -10px;
 	margin-right: 30%;
 }
@@ -32,6 +33,21 @@ a:hover{
 }
 #tarih{
 	text-align: right;
+=======
+  margin-top: -10px;
+  margin-right: 30%;
+}
+.subheading{
+	margin-bottom: -300px;
+}
+a{
+  text-decoration: none !important;
+  color: wheat !important;
+}
+
+a:hover{
+  color: #CC9966 !important;
+>>>>>>> fbd6ba0af9288a9f15b04f1e6e012bcf0c3a5889
 }
 /* Banner */
 
@@ -40,7 +56,11 @@ a:hover{
 	-webkit-align-items: center;
 	-ms-align-items: center;
 	align-items: center;
+<<<<<<< HEAD
 	background-image: url(" ");
+=======
+	background-image: url("../../images/banner.jpg");
+>>>>>>> fbd6ba0af9288a9f15b04f1e6e012bcf0c3a5889
 	display: -moz-flex;
 	display: -webkit-flex;
 	display: -ms-flex;
@@ -188,12 +208,15 @@ body.is-preload #banner > .inner {
 	#banner {
 		background-attachment: scroll;
 	}
+<<<<<<< HEAD
 	img{
 		margin-left: auto;
 	}
 	.indirname{
 		margin-left: auto;
 	}
+=======
+>>>>>>> fbd6ba0af9288a9f15b04f1e6e012bcf0c3a5889
 }
 
 @media screen and (max-width: 736px) {
@@ -219,6 +242,7 @@ body.is-preload #banner > .inner {
 		min-height: 0;
 		max-height: none;
 	}
+<<<<<<< HEAD
 
 	.site-heading{
 		margin: 0px auto;
@@ -229,6 +253,8 @@ body.is-preload #banner > .inner {
 	.indirname{
 		margin-left: 40%;
 	}
+=======
+>>>>>>> fbd6ba0af9288a9f15b04f1e6e012bcf0c3a5889
 }
 
 @media screen and (max-width: 480px) {
@@ -245,6 +271,7 @@ body.is-preload #banner > .inner {
 		padding: 8em 0 4em 0 ;
 	}
 
+<<<<<<< HEAD
 	.site-heading{
 		margin: 0px auto;
 	}
@@ -255,10 +282,13 @@ body.is-preload #banner > .inner {
 	.indirname{
 		margin-left: 40%;
 	}
+=======
+>>>>>>> fbd6ba0af9288a9f15b04f1e6e012bcf0c3a5889
 }
 /* Banner */
 
 
+<<<<<<< HEAD
 /*Menu*/
 html, body{
 	font-family: 'Raleway', sans-serif;
@@ -321,3 +351,67 @@ body{
 	font-weight:600;
 }
 /* Menu*/
+=======
+/*Burger menu*/
+html, body{
+ font-family: 'Raleway', sans-serif;
+ color:#FFF;
+ height:100%;
+}
+body{
+ background:rgba(0, 0, 0, 0.5); 
+}
+
+.menucontainer{
+  position: relative;
+  display: inline-block;
+  max-width:80px;
+  max-height: 330px;
+  background:rgba(0, 0, 0, 0.75);
+  margin-left: 5%;
+  margin-top: 50%;
+  border:1px solid #111;
+  border-radius:4px;
+  box-shadow:0px 4px 5px rgba(0, 0, 0, 0.75);
+}
+.link{
+ font-size:16px;
+ font-weight:300;
+ text-align:center;
+ position:relative;
+ height:40px;
+ line-height:40px;
+ margin-top:10px;
+ overflow:hidden;
+ width:90%;
+ margin-left:5%;
+ cursor:pointer;
+}
+.link:after{
+ content: '';
+ position:absolute;
+ width:80%;
+ border-bottom:1px solid rgba(255, 255, 255, 0.5);
+ bottom:50%;
+ left:-100%;
+ transition-delay: all 0.5s;
+ transition: all 0.5s;
+}
+.link:hover:after,
+.link.hover:after{
+ left:100%;
+}
+.link .text{
+ text-shadow:0px -40px 0px rgba(255, 255, 255, 1);
+ transition:all 0.75s;
+ transform:translateY(100%) translateZ(0);
+ transition-delay:all 0.25s;
+}
+.link:hover .text,
+.link.hover .text{
+ text-shadow:0px -40px 0px rgba(255, 255, 255, 0);
+ transform:translateY(0%) translateZ(0) scale(1.1);
+ font-weight:600;
+}
+/* Burger menu*/
+>>>>>>> fbd6ba0af9288a9f15b04f1e6e012bcf0c3a5889
