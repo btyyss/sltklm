@@ -1,0 +1,8 @@
+var data = {
+  "images": [{
+    "bannerImg1": "https://github.com/btyyss/sltklm/blob/master/Meal_Baski7_01.jpg"
+  },
+  {"bannerImg1" : "https://github.com/btyyss/sltklm/blob/master/Meal_Baski7_01.jpg"
+  }]
+};
+
